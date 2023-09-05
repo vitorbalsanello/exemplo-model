@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
- return {"greeting":"Hello World!"}
+ return {"greeting":"Hello Medium reader!"}
 
 @app.get("/predict")
 async def predict(total_rooms: int):
